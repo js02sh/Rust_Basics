@@ -1,4 +1,5 @@
 //Refectoring with Structs: Adding more Meaning
+#[derive(Debug)]
 struct Rectangle {
     width: u32,
     height: u32,
@@ -13,6 +14,9 @@ fn main() {
         width: 35,
         height: 55,
     };
+    println!("rect1 is {:?}", rect1);
+    println!("rect1 is {:#?}", rect1);
+
 
     println!(
         "The area of the rectangle1 is {} square pixels, 
